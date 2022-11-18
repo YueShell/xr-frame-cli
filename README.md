@@ -11,11 +11,12 @@
 
 ```sh
 1. apt-get install curl
-1. curl --silent -k --location https://deb.nodesource.com/setup_14.x | bash -
-1. apt-get update
-1. apt-get install -y nodejs libvips-dev build-essential libxi-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev pkg-config
-1. npm i xr-frame-cli -g
+2. curl --silent -k --location https://deb.nodesource.com/setup_14.x | bash -
+3. apt-get update
+4. apt-get install -y nodejs libvips-dev build-essential libxi-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev pkg-config
+5. npm i xr-frame-cli -g
 ```
+安装成功，但是执行失败的话，看ISSUE处理
 
 之后可以使用下列指令：
 
