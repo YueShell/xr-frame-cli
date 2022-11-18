@@ -84,4 +84,4 @@ TypeError: Cannot read property 'getExtension' of null
 1. Update the angle submodule: `git submodule update`
 1. Install npm dependencies: `npm install`
 1. Run node-gyp to generate build scripts: `npm run rebuild`
-1. cp headless-gl/build/Release/webgl.node node_modules/gl/build/Release/webgl.node
+1. `cp headless-gl/build/Release/webgl.node node_modules/gl/build/Release/webgl.node`
