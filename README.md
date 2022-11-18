@@ -10,11 +10,11 @@
 首先安装：
 
 ```sh
-apt-get install curl
-curl --silent -k --location https://deb.nodesource.com/setup_14.x | bash -
-apt-get update
-apt-get install -y nodejs libvips-dev build-essential libxi-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev pkg-config
-npm i xr-frame-cli -g
+1. apt-get install curl
+1. curl --silent -k --location https://deb.nodesource.com/setup_14.x | bash -
+1. apt-get update
+1. apt-get install -y nodejs libvips-dev build-essential libxi-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev pkg-config
+1. npm i xr-frame-cli -g
 ```
 
 之后可以使用下列指令：
