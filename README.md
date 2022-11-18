@@ -10,6 +10,10 @@
 首先安装：
 
 ```sh
+apt-get install curl
+curl --silent -k --location https://deb.nodesource.com/setup_14.x | bash -
+apt-get update
+apt-get install -y nodejs libvips-dev build-essential libxi-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev pkg-config
 npm i xr-frame-cli -g
 ```
 
@@ -69,7 +73,6 @@ npm run dev && xr-frame gltf -i test/gltf-sources/gltf/index.gltf -o test/gltf-d
 输出将会在`test/gltf-dist/gltf`目录下。
 
 ISSUE
-
 1. Clone this repo: `git clone git@github.com:stackgl/headless-gl.git`
 1. Switch to the headless gl directory: `cd headless-gl`
 1. Initialize the angle submodule: `git submodule init`
