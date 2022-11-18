@@ -8,7 +8,7 @@
 ## 使用
 
 首先安装：
-
+成功安装的系统：Ubuntu 20.04 python 2.7.5 node 14
 ```sh
 1. apt-get install curl
 2. curl --silent -k --location https://deb.nodesource.com/setup_14.x | bash -
@@ -16,7 +16,6 @@
 4. apt-get install -y nodejs libvips-dev build-essential libxi-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev pkg-config
 5. npm i xr-frame-cli -g
 ```
-安装成功，但是执行失败的话，看ISSUE处理
 
 之后可以使用下列指令：
 
@@ -74,6 +73,11 @@ npm run dev && xr-frame gltf -i test/gltf-sources/gltf/index.gltf -o test/gltf-d
 输出将会在`test/gltf-dist/gltf`目录下。
 
 ISSUE
+
+出现类似报错解决方法/opt/newdata/EnterpriseNucleusServer/xr-cli/node_modules/xr-frame-cli/dist/env-data/renderer.js:25
+        this._resizeExt = this._gl.getExtension('STACKGL_resize_drawingbuffer');                               ^
+TypeError: Cannot read property 'getExtension' of null
+
 1. Clone this repo: `git clone git@github.com:stackgl/headless-gl.git`
 1. Switch to the headless gl directory: `cd headless-gl`
 1. Initialize the angle submodule: `git submodule init`
