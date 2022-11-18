@@ -67,3 +67,13 @@ npm run dev && xr-frame gltf -i test/gltf-sources/gltf/index.gltf -o test/gltf-d
 ```
 
 输出将会在`test/gltf-dist/gltf`目录下。
+
+ISSUE
+
+1. Clone this repo: `git clone git@github.com:stackgl/headless-gl.git`
+1. Switch to the headless gl directory: `cd headless-gl`
+1. Initialize the angle submodule: `git submodule init`
+1. Update the angle submodule: `git submodule update`
+1. Install npm dependencies: `npm install`
+1. Run node-gyp to generate build scripts: `npm run rebuild`
+1. cp headless-gl/build/Release/webgl.node node_modules/gl/build/Release/webgl.node
